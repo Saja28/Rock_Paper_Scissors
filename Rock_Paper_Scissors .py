@@ -3,10 +3,6 @@ import random
 #random.choice(a))
 b=["r","p" , "s" ]
 
-
-
-
-
 def rock_paper_scissors() :
    
     if m == 'r' and n== 'p' :
@@ -26,9 +22,7 @@ def rock_paper_scissors() :
         result= 1
         return result
        
-        #print( " Rock is winner.  ")
-         
-       
+        #print( " Rock is winner.  ")   
     elif m == 's'and n== 'r' :
         result= 0
         return result
@@ -57,14 +51,9 @@ def rock_paper_scissors() :
        # print( " try agin!  ")
     elif m == 'r'and n== 'r' :
         result= 0
-        return result
- 
+        return result 
        #print( " try agin!  ")
-
-
-
 result=0
-
 count = 0
 while count <= 3 :
     count +=1
@@ -73,7 +62,6 @@ while count <= 3 :
     k=  rock_paper_scissors()
     result= result + k
     print(f"score_m = {k }")
-
 if result <= 2 :
     print("you are winner")
 else:
