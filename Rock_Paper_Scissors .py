@@ -1,17 +1,14 @@
 import random
-#a=["Rock","Paper" , "Scissors" ]
+#a=["Rock", "Paper", "Scissors" ]
 #random.choice(a))
-b=["r","p" , "s" ]
-
-def rock_paper_scissors() :
-   
+b=["r", "p", "s" ]
+def rock_paper_scissors() :   
     if m == 'r' and n== 'p' :
         result= 0
         return result
       #score_n += 1
       #score_m += 0
-      # print=(" Paper is winner.  ")
-            
+      # print=(" Paper is winner.  ")            
     elif m == 'p'and n== 'r' :
         result= 1
         return result
@@ -20,39 +17,32 @@ def rock_paper_scissors() :
        # print( " Paper is winner.  ")
     elif m == 'r' and n== 's' :
         result= 1
-        return result
-       
+        return result       
         #print( " Rock is winner.  ")   
     elif m == 's'and n== 'r' :
         result= 0
-        return result
-      
+        return result     
        # print( " Rock is winner.  ")
     elif m == 'p' and n== 's' :
         result= 0
-        return result  
-     
+        return result    
        # print( " Scissors is winner.  ")
     elif m == 's' and n== 'p' :
         result= 1
         return result
-   
         #print( f" Scissors is winner. ")
-
     elif m == 's' and n== 's' :
         result= 0
         return result
-
-        #print( " try agin!  ")   
+        #print( " try again!  ")   
     elif m == 'p' and n== 'p' :
         result= 0
         return result
-    
-       # print( " try agin!  ")
+       # print( " try again!  ")
     elif m == 'r'and n== 'r' :
         result= 0
         return result 
-       #print( " try agin!  ")
+       #print( " try again!  ")
 result=0
 count = 0
 while count <= 3 :
@@ -65,7 +55,7 @@ while count <= 3 :
 if result <= 2 :
     print("you are winner")
 else:
-    print("pc is wninner")
+    print("pc is Winner")
 
 
 
